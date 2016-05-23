@@ -1,0 +1,84 @@
+.contact-info {
+  display: inline-block;
+  width: 100%;
+  height: 17%;
+  background-color: white;
+  box-shadow: 0px 7px 5px grey;
+}
+.forms {
+  // border:1px blue solid;
+  float: right;
+  overflow: auto;
+  width: 48%;
+  height: 100%;
+}
+#name {
+  display: inline-block;
+  width: 81%;
+  border-radius: 2px;
+  margin-top: 35px;
+  margin-left: 26px;
+  padding: 13px;
+}
+#email {
+  display: inline-block;
+  width: 81%;
+  border-radius: 2px;
+  margin-top: 18px;
+  margin-left: 26px;
+  padding: 13px
+}
+#feedback {
+  display: inline-block;
+  width: 81%;
+  height: 69px;
+  border-radius: 2px;
+  margin-top: 16px;
+  margin-left: 26px;
+  padding: 13px
+}
+#submit {
+  display: inline-block;
+  color: white;
+  background-color: red;
+  width: 50%;
+  height: 36px;
+  border-radius: 2px;
+  margin-top: 15px;
+  margin-left: 18px;
+  padding: 0px;
+  float: right;
+  margin-right: 39px;
+  &:hover {
+    background-color: #940707;
+  }
+}
+.form-info h2 {
+  display: inline-block;
+  padding-left: 19px;
+  padding-top: 20px;
+  margin: 0;
+  font-family: sans-serif;
+}
+.form-info p {
+  display: inline-block;
+  padding: 19px;
+  margin: 0;
+}
+.form-info{
+  // border: 1px red solid;
+  width: 48%;
+  height: 100%;
+  overflow: auto;
+  .tiny-icons {
+    width: 42%;
+    margin-left: 40px;
+    a img{
+      display: inline-block;
+      width: 15%;
+      height: 100%;
+      margin: 0;
+
+    }
+  }
+}

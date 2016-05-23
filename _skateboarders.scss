@@ -1,0 +1,129 @@
+.skateboarders {
+  display: inline-block;
+  width: 100%;
+  height: 24%;
+  // background-color: orange;
+}
+.photo-top {
+  display: inline-block;
+  width: 65%;
+  height: 43%;
+  margin-top: 15px;
+  margin-left: 8px;
+  padding-bottom: 23px;
+  #left {
+    display: inline-block;
+    width:47%;
+    height: 100%;
+    overflow: hidden;
+    border: 7px white solid;
+    box-shadow: 0px 7px 5px gray;
+    // background-color: yellow;
+    img {
+      display: inline-block;;
+      right: 38%;
+      bottom: 4%;
+    }
+  }
+}
+
+#left h3 {
+  display: inline-block;
+  z-index: 2;
+  color: white;
+  font-size: 3em;
+  text-align: center;
+  font-family: Montserrat, sans-serif;
+  margin-left: 54px;
+  margin-top: 61px;
+  &:hover {
+    transform: scale(1.2,1.2);
+    transition: .5s ease;
+  }
+}
+#right {
+  display: inline-block;
+  width:47%;
+  height: 100%;
+  float: right;
+  overflow: hidden;
+  border: 7px white solid;
+  box-shadow: 0px 7px 5px grey;
+  // background-color: green;
+  img {
+    display: inline-block;
+  }
+}
+#right h3{
+  display: inline-block;
+  z-index: 2;
+  color: white;
+  font-size: 3em;
+  text-align: center;
+  font-family:Montserrat, sans-serif;
+  margin-left: 63px;
+  margin-top: 61px;
+  &:hover {
+    transform: scale(1.2,1.2);
+    transition: .5s ease;
+  }
+}
+.photo-right {
+  display: inline-block;
+  // background-color: blue;
+  width: 31%;
+  height: 92%;
+  margin-top: 16px;
+  margin-right: 11px;
+  float: right;
+  border: 7px white solid;
+  overflow: hidden;
+  box-shadow: 0px 7px 5px grey;
+  img {
+    display: inline-block;
+    height: 100%;
+    right: 124%;
+  }
+}
+.photo-right h3 {
+  display: inline-block;
+  z-index: 2;
+  color: white;
+  font-size: 3em;
+  text-align: center;
+  font-family: Montserrat, sans-serif;
+  margin-left: 54px;
+  margin-top: 175px;
+  &:hover {
+    transform: scale(1.2,1.2);
+    transition: .5s ease;
+  }
+}
+.photo-bottom {
+  display: inline-block;
+  width: 64%;
+  height: 45%;
+  overflow: hidden;
+  // background-color: lightblue;
+  margin-left: 8px;
+  border: 7px white solid;
+  box-shadow: 0px 7px 5px grey;
+  img {
+    display: inline-block;
+    bottom: 103px;
+  }
+}
+.photo-bottom h2 {
+  display: inline-block;
+  z-index: 2;
+  color: white;
+  font-size: 3em;
+  text-align: center;
+  font-family: Montserrat, sans-serif;
+  margin-left: 164px;
+  margin-top: 69px;
+  &:hover {
+    transform: scale(1.2,1.2);
+    transition: .5s ease;
+  }
+}
