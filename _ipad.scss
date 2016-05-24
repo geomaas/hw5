@@ -1,2 +1,92 @@
 @media only screen and (min-width: 768px) and (max-width: 944px){
+  body {
+    padding-left: 1%;
+  }
+  .main-col {
+    width:100%;
+    margin: 0 auto;
+    .grid {
+      display: none;
+    }
+    .logo img {
+      width: 75%;
+      margin-left: 66%;
+      padding-top: 4%;
+    }
+  }
+  .news .articles {
+    width: 95%;
+    margin: 1%;
+  }
+  .social {
+    display: none;
+  }
+  .header-nav .menu {
+    display: inline-block;
+    width: 46%;
+    margin: 1%;
+    a {
+      vertical-align: middle;
+
+    }
+  }
+.skateboarders {
+      width: 95%;
+    }
+.photo-top,.photo-right,.photo-bottom {
+  width: 95%;
+  float: none;
+  margin: 1%;
+  padding: 0;
+}
+.photo-top #left,#right{
+  width: 100%;
+  float: none;
+  h3 {
+  display: none;
+  }
+  img {
+    width: 100%;
+
+  }
+}
+.photo-right {
+  width: 95%;
+  float: none;
+  margin: 1%;
+  h3 {
+    display: none;
+  }
+  img {
+    width: 100%;
+  }
+}
+.photo-bottom {
+  width: 95%;
+  margin: 1%;
+  h2 {
+    display: none;
+  }
+  img {
+    width: 110%;
+  }
+}
+.decks {
+  width: 95%;
+  ul li {
+  width:auto ;
+  }
+}
+.contact-info{
+  display: 95%;
+  .form-info {
+    width: 46%;
+  }
+}
+  .forms {
+    float: right;
+    width: 46%;
+}
+
+
 }
